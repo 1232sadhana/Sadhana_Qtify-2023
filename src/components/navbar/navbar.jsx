@@ -1,26 +1,22 @@
-import React from 'react';
-import styled from 'styled-components';
-import LogoJSX from '../logo/logo';
-import Button from '../button/button';
-import SearchBarJsx from '../searchbar/searchbar';
+import React from "react";
+import Logo from "./Logo/Logo";
+import SearchBar from "./SearchBar/SearchBar";
+import "./NavBar.css";
+import Button from "./Button/Button";
 
-const NavBar = styled.nav`
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 10px;
- background-color: #333;
- color: #fff;
-`;
-
-const NavbarJsx = () => {
- return (
-    <NavBar>
-      <LogoJSX />
-      <SearchBarJsx />
-      <Button />
-    </NavBar>
- );
+/**
+ * Represents the navigation bar component.
+ * Renders a navigation bar with a logo, search bar, and a button.
+ * @returns {JSX.Element} The rendered navigation bar component.
+ */
+const NavBar = () => {
+  return (
+    <nav className="navBar">
+      <Logo />
+      <SearchBar />
+      <Button text="Give Feedback" />
+    </nav>
+  );
 };
 
-export default NavbarJsx;
+export default NavBar;
