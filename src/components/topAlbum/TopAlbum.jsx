@@ -64,13 +64,13 @@ const TopAlbum = () => {
           if (collapseView && index < 6) {
             return (
               <Grid item xs={2}>
-                <Card key={id} data={albumItem} type="normal" />
+                <card key={id} data={albumItem} type="normal" />
               </Grid>
             );
           } else if (!collapseView) {
             return (
               <Grid item xs={2}>
-                <Card key={id} data={albumItem} type="normal" />
+                <card key={id} data={albumItem} type="normal" />
               </Grid>
             );
           } else {
@@ -82,4 +82,4 @@ const TopAlbum = () => {
   );
 };
 
-export default TopAlbum;qq
+export default TopAlbum;
