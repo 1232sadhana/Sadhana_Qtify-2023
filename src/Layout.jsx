@@ -1,9 +1,9 @@
 import React from "react";
 import HeroSection from "./components/HeroSection/HeroSection";
-import NavBar from "./components/NavBar/NavBar";
+import NavBar from "./components/navbar/NavBar";
 import "./Layout.css";
 import TopAlbum from "./components/topAlbum/TopAlbum";
-import NewAlbum from "./components/newAlbum/NewAlbum";
+import newAlbum from "./components/newAlbum/newAlbum";
 import Faqs from "./components/Faqs/Faqs";
 import AudioPlayer from "./components/AudioPlayer/AudioPlayer";
 import Songs from "./components/Songs/Songs";
@@ -26,7 +26,7 @@ const Layout = () => {
       <TopAlbum />
 
       {/* Render the new albums section */}
-      <NewAlbum />
+      <newAlbum />
       {/* Songs Section */}
       <Songs/>
       {/* Render the FAQs section */}
