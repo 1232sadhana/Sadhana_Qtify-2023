@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { topAlbumData, getUId } from "../AxiosData/AxiosData";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import Card from "../Card/Card";
+import card from "../card/card";
 import "./TopAlbum.css";
 
 /**
