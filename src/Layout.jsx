@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "./components/HeroSection/HeroSection";
-import navbar from "./components/NavBar/navbar";
+import NavBar from "./components/NavBar/NavBar";
 import "./Layout.css";
 import TopAlbum from "./components/topAlbum/TopAlbum";
 import NewAlbum from "./components/newAlbum/NewAlbum";
@@ -13,7 +13,7 @@ import Songs from "./components/Songs/Songs";
  * Renders the navigation bar and various sections/components.
  * @returns {JSX.Element} The rendered layout component.
  */
-const Layout = () => {q
+const Layout = () => {
   return (
     <div className="layout">
       {/* Render the navigation bar */}
