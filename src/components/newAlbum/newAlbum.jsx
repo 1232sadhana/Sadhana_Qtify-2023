@@ -3,7 +3,7 @@ import { newAlbumData, getUId } from "../AxiosData/AxiosData";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Card from "../Card/Card";
-import "./NewAlbum.css";
+import "./newAlbum.css";
 
 /**
  * Represents the NewAlbum component.
