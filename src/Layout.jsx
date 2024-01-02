@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "./components/HeroSection/HeroSection";
-import NavBar from "./components/navbar/NavBar";
+import navbar from "./components/navbar/navbar";
 import "./Layout.css";
 import TopAlbum from "./components/topAlbum/TopAlbum";
 import newAlbum from "./components/newAlbum/newAlbum";
@@ -17,7 +17,7 @@ const Layout = () => {
   return (
     <div className="layout">
       {/* Render the navigation bar */}
-      <NavBar />
+      <navbar />
 
       {/* Render the hero section */}
       <HeroSection />
